@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: var(--radius);
+  border: none;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: var(--fontSizeParagraph);
+  color: var(--darkGreen);
+  font-weight: var(--fontBold);
+
+  &:hover {
+    background-color: var(--lightGreen);
+    cursor: pointer;
+  }
+  
+}
+
+.active {
+  background-color: var(--lightGreen);
+}
+
+@media (width >= 800px) {
+  .container{
+    width: 50%;
+  }
+}

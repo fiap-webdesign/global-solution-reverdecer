@@ -1,0 +1,21 @@
+.btn{
+  height: 45px;
+  width: 180px;
+  background-color: var(--darkGreen);
+  color: var(--white);
+  font-weight: var(--fontBold);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 18px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+@media (800px <= width <= 1000px ) {
+
+}
+
+@media (width >= 1001px) {
+
+}

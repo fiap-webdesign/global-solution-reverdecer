@@ -1,0 +1,15 @@
+.title {
+  font-size: var(--fontSizeTitle);
+  margin: 15px 0;
+  color: var(--darkGreen);
+  text-align: left;
+  width: 100%;
+}
+
+@media (800px <= width <= 1000px ) {
+
+}
+
+@media (width >= 1001px) {
+
+}
