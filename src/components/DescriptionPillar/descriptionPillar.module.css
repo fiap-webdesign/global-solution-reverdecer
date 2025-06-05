@@ -1,0 +1,19 @@
+.description {
+  color: var(--darkGreen);
+  font-weight: var(--fontNormal);
+  width: 80%;
+  text-align: justify;
+  font-size: var(--fontSizeParagraph);
+  padding-left: 50px;
+}
+
+/* @media (800px <=width <=1000px) {
+  .description {
+  }
+
+}
+
+@media (width >=1001px) {
+  .description {
+  }
+} */

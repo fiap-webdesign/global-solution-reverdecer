@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fontFamily);
+}
+
+body,
+html {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--background);
+}
+
+:root {
+  --background: #D0DED5;
+  --lightGreen: #A8D2B7;
+  --darkGreen: #00541C;
+  --white: #FFFFFF;
+  --fontFamily: "Nunito";
+  --fontBold: bold;
+  --fontNormal: normal;
+  --radius: 15px;
+  --fontSizeIntroduction: 18px; 
+  --fontSizeParagraph: 14px;
+  --fontSizeTitlePillar: 20px;
+  --fontSizeTitleTutorials: 18px;
+  --fontSizeTitle: 40px;
+  --fontSizeSubtitle: 26px;
+}
+
+@media (width >= 800px ) and (width <= 1000px) {
+  :root{
+    --fontSizeIntroduction: 24px; 
+    --fontSizeParagraph: 16px;
+    --fontSizeTitle: 46px;
+    --fontSizeSubtitle: 32px;
+    --fontSizeTitlePillar: 22px;
+    --fontSizeTitleTutorials: 20px;
+  }
+  
+}
+
+@media (width >= 1001px) {
+  :root{
+    --fontSizeIntroduction: 28px; 
+    --fontSizeParagraph: 18px;
+    --fontSizeTitle: 52px;
+    --fontSizeSubtitle: 38px;
+    --fontSizeTitlePillar: 24px;
+    --fontSizeTitleTutorials: 22px;
+  }
+ 
+}
